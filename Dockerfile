@@ -1,3 +1,3 @@
 FROM golang:1.10-alpine
 
-RUN apk add docker git libc6
+RUN apk add -U docker git libc6
